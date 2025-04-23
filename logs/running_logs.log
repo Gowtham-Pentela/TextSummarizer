@@ -1,0 +1,113 @@
+[2025-04-21 21:03:30,061]: [INFO]: [main: This is a custom log message.]
+[2025-04-21 23:09:42,316]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:09:42,320]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:10:43,416]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:10:43,418]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:10:43,420]: [INFO]: [common: Directory artifacts created successfully.]
+[2025-04-21 23:12:11,099]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:12:11,102]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:12:11,104]: [INFO]: [common: Directory artifacts created successfully.]
+[2025-04-21 23:14:52,866]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:14:52,869]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:14:52,870]: [INFO]: [common: Directory artifacts created successfully.]
+[2025-04-21 23:16:25,916]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:16:25,918]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:16:25,919]: [INFO]: [common: Directory artifacts created successfully.]
+[2025-04-21 23:19:07,125]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:19:07,125]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:19:07,126]: [INFO]: [common: Directory artifacts created successfully.]
+[2025-04-21 23:21:52,401]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:21:52,403]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:21:52,404]: [INFO]: [common: Directory artifacts created successfully.]
+[2025-04-21 23:27:49,538]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:27:49,540]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:27:49,542]: [INFO]: [common: Directory artifacts created successfully.]
+[2025-04-21 23:28:35,088]: [INFO]: [common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:28:35,090]: [INFO]: [common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:28:35,091]: [INFO]: [common: Directory artifacts created successfully.]
+[2025-04-21 23:31:41,261: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:31:41,262: INFO: common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:31:41,262: INFO: common: Directory artifacts created successfully.]
+[2025-04-21 23:33:17,554: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:33:17,556: INFO: common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:33:17,557: INFO: common: Directory artifacts created successfully.]
+[2025-04-21 23:34:02,993: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:34:02,996: INFO: common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:34:02,996: INFO: common: Directory artifacts created successfully.]
+[2025-04-21 23:34:51,993: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:34:51,995: INFO: common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:34:51,996: INFO: common: Directory artifacts created successfully.]
+[2025-04-21 23:42:51,677: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:42:51,679: INFO: common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:42:51,681: INFO: common: Directory artifacts created successfully.]
+[2025-04-21 23:42:58,957: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2025-04-21 23:42:58,958: INFO: common: YAML file params.yaml loaded successfully.]
+[2025-04-21 23:42:58,959: INFO: common: Directory artifacts created successfully.]
+[2025-04-22 19:50:48,727: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 19:50:48,729: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 19:50:48,730: INFO: common: created directory at: artifacts]
+[2025-04-22 19:50:48,731: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-22 19:50:51,734: INFO: 4192803348: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E89:3D70CC:A60AA2:D1ECBC:68083968
+Accept-Ranges: bytes
+Date: Wed, 23 Apr 2025 00:50:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-chi-klot8100157-CHI
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1745369449.421269,VS0,VE179
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6e2b9f3992e5237b9e4c1982375392f73f4eab7a
+Expires: Wed, 23 Apr 2025 00:55:49 GMT
+Source-Age: 0
+
+]
+[2025-04-22 20:07:31,203: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-04-22 20:07:31,203: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:07:31,204: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:07:31,205: INFO: common: created directory at: artifacts]
+[2025-04-22 20:07:31,205: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-22 20:07:34,339: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E89:3D70CC:A60AA2:D1ECBC:68083968
+Accept-Ranges: bytes
+Date: Wed, 23 Apr 2025 01:07:32 GMT
+Via: 1.1 varnish
+X-Served-By: cache-chi-klot8100031-CHI
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1745370452.942883,VS0,VE143
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 335481cc4d5b0e095d78885d972cb192d721d74f
+Expires: Wed, 23 Apr 2025 01:12:32 GMT
+Source-Age: 0
+
+]
+[2025-04-22 20:07:34,415: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+
+]

@@ -1,0 +1,9 @@
+artifacts_root: artifacts
+
+# downloads the data from source_url inside the root_dir as local_data_file unzipped into unzip_dir
+# updates in the data path here are reflected in all the files since these are variables
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Gowtham-Pentela/Data/raw/refs/heads/main/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
