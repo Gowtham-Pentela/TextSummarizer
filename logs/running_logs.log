@@ -111,3 +111,84 @@ Source-Age: 0
 x==========x
 
 ]
+[2025-04-22 20:39:33,246: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:39:33,252: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:39:33,253: INFO: common: created directory at: artifacts]
+[2025-04-22 20:39:33,254: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 20:45:24,600: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:45:24,603: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:45:24,605: INFO: common: created directory at: artifacts]
+[2025-04-22 20:45:24,606: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 20:49:20,759: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:49:20,762: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:49:20,762: INFO: common: created directory at: artifacts]
+[2025-04-22 20:49:20,763: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 20:50:14,006: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:50:14,008: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:50:14,010: INFO: common: created directory at: artifacts]
+[2025-04-22 20:50:14,011: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 20:51:28,475: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:51:28,477: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:51:28,478: INFO: common: created directory at: artifacts]
+[2025-04-22 20:51:28,479: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 20:51:56,576: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:51:56,579: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:51:56,580: INFO: common: created directory at: artifacts]
+[2025-04-22 20:51:56,582: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 20:52:26,041: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:52:26,043: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:52:26,043: INFO: common: created directory at: artifacts]
+[2025-04-22 20:52:26,044: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 20:52:42,734: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 20:52:42,736: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 20:52:42,737: INFO: common: created directory at: artifacts]
+[2025-04-22 20:52:42,737: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 21:10:53,414: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-04-22 21:10:53,416: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:10:53,416: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:10:53,416: INFO: common: created directory at: artifacts]
+[2025-04-22 21:10:53,417: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-22 21:10:56,592: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A49:D658F:BC73CF:EC0C11:68084C2C
+Accept-Ranges: bytes
+Date: Wed, 23 Apr 2025 02:10:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-chi-kigq8000055-CHI
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1745374254.026641,VS0,VE148
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8b1d0e38084fd2aa2a358095c9720a43e68acf4b
+Expires: Wed, 23 Apr 2025 02:15:54 GMT
+Source-Age: 0
+
+]
+[2025-04-22 21:10:56,667: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+
+]
+[2025-04-22 21:10:56,667: INFO: main: >>>>>> stage Data validation Stage started <<<<<<]
+[2025-04-22 21:10:56,668: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:10:56,668: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:10:56,668: INFO: common: created directory at: artifacts]
+[2025-04-22 21:10:56,668: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 21:10:56,668: INFO: stage_02_data_validation: Starting data validation]
+[2025-04-22 21:10:56,669: INFO: stage_02_data_validation: Data validation completed successfully]
+[2025-04-22 21:10:56,669: INFO: main: >>>>>> stage Data validation Stage completed <<<<<<
+
+x==========x
+
+]
