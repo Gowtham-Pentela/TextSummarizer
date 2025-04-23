@@ -192,3 +192,93 @@ x==========x
 x==========x
 
 ]
+[2025-04-22 21:28:44,948: INFO: config: PyTorch version 2.6.0 available.]
+[2025-04-22 21:40:00,648: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:40:00,654: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:40:00,655: INFO: common: created directory at: artifacts]
+[2025-04-22 21:40:53,513: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:40:53,515: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:40:53,515: INFO: common: created directory at: artifacts]
+[2025-04-22 21:41:59,313: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:41:59,316: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:41:59,318: INFO: common: created directory at: artifacts]
+[2025-04-22 21:42:27,916: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:42:27,919: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:42:27,920: INFO: common: created directory at: artifacts]
+[2025-04-22 21:44:32,077: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:44:32,078: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:44:32,079: INFO: common: created directory at: artifacts]
+[2025-04-22 21:45:44,501: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:45:44,503: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:45:44,505: INFO: common: created directory at: artifacts]
+[2025-04-22 21:45:44,506: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-22 21:46:42,378: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:46:42,379: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:46:42,380: INFO: common: created directory at: artifacts]
+[2025-04-22 21:46:42,381: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-22 21:47:02,834: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:47:02,837: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:47:02,838: INFO: common: created directory at: artifacts]
+[2025-04-22 21:47:02,839: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-22 21:53:21,863: INFO: config: PyTorch version 2.6.0 available.]
+[2025-04-22 21:53:22,102: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-04-22 21:53:22,103: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:53:22,104: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:53:22,104: INFO: common: created directory at: artifacts]
+[2025-04-22 21:53:22,104: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-22 21:53:25,250: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A932:252890:BD60EF:ECC49E:6808561F
+Accept-Ranges: bytes
+Date: Wed, 23 Apr 2025 02:53:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-chi-kigq8000145-CHI
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1745376803.576054,VS0,VE331
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 53276d291629291d88a2ebf93f365c8284ac6bd1
+Expires: Wed, 23 Apr 2025 02:58:22 GMT
+Source-Age: 0
+
+]
+[2025-04-22 21:53:25,312: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+
+]
+[2025-04-22 21:53:25,312: INFO: main: >>>>>> stage Data validation Stage started <<<<<<]
+[2025-04-22 21:53:25,313: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:53:25,314: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:53:25,314: INFO: common: created directory at: artifacts]
+[2025-04-22 21:53:25,314: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-22 21:53:25,314: INFO: stage_02_data_validation: Starting data validation]
+[2025-04-22 21:53:25,314: INFO: stage_02_data_validation: Data validation completed successfully]
+[2025-04-22 21:53:25,314: INFO: main: >>>>>> stage Data validation Stage completed <<<<<<
+
+x==========x
+
+]
+[2025-04-22 21:53:25,314: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-04-22 21:53:25,315: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-22 21:53:25,315: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-22 21:53:25,315: INFO: common: created directory at: artifacts]
+[2025-04-22 21:53:25,315: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-22 21:53:25,989: INFO: stage_03_data_transformation: Starting data Transformation]
+[2025-04-22 21:53:28,236: INFO: stage_03_data_transformation: Data Transformation completed successfully]
+[2025-04-22 21:53:28,286: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x
+
+]
