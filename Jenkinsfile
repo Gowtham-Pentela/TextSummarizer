@@ -49,7 +49,10 @@ pipeline {
                 script {
                     try {
                         echo 'Deploying application...'
-                        // Add deployment steps here
+                        // Stop any running container with the same name
+                        sh 'docker stop text-summarizer || true && docker rm text-summarizer || true'
+                        // Run the new container
+                        sh 'docker run -d --name text-summarizer -p 8080:8080 text-summarizer:latest'
                     } catch (Exception e) {
                         error "Deployment failed: ${e.message}"
                     }
