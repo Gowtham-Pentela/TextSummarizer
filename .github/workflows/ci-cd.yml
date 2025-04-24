@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  DOCKER_IMAGE: gpentela/text-summarizer:latest # Replace 'your-dockerhub-username' with your Docker Hub username
+  DOCKER_IMAGE: gpentela/text-summarizer:latest 
 
 jobs:
   build:

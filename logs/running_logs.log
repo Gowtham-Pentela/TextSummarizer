@@ -743,3 +743,70 @@ x==========x
 x==========x
 
 ]
+[2025-04-24 13:23:39,934: INFO: config: PyTorch version 2.6.0+cu124 available.]
+[2025-04-24 13:23:42,781: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-04-24 13:23:42,791: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-24 13:23:42,798: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-24 13:23:42,799: INFO: common: created directory at: artifacts]
+[2025-04-24 13:23:42,799: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-24 13:23:42,799: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-04-24 13:23:42,907: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+
+]
+[2025-04-24 13:23:42,907: INFO: main: >>>>>> stage Data validation Stage started <<<<<<]
+[2025-04-24 13:23:42,910: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-24 13:23:42,911: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-24 13:23:42,911: INFO: common: created directory at: artifacts]
+[2025-04-24 13:23:42,912: INFO: common: created directory at: artifacts/data_validation]
+[2025-04-24 13:23:42,912: INFO: stage_02_data_validation: Starting data validation]
+[2025-04-24 13:23:42,914: INFO: stage_02_data_validation: Data validation completed successfully]
+[2025-04-24 13:23:42,914: INFO: main: >>>>>> stage Data validation Stage completed <<<<<<
+
+x==========x
+
+]
+[2025-04-24 13:23:42,914: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-04-24 13:23:42,917: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-24 13:23:42,918: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-24 13:23:42,918: INFO: common: created directory at: artifacts]
+[2025-04-24 13:23:42,919: INFO: common: created directory at: artifacts/data_transformation]
+[2025-04-24 13:23:43,775: INFO: stage_03_data_transformation: Starting data Transformation]
+[2025-04-24 13:23:44,117: INFO: stage_03_data_transformation: Data Transformation completed successfully]
+[2025-04-24 13:23:44,171: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x
+
+]
+[2025-04-24 13:23:44,172: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2025-04-24 13:23:44,174: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-24 13:23:44,175: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-24 13:23:44,176: INFO: common: created directory at: artifacts]
+[2025-04-24 13:23:44,176: INFO: common: created directory at: artifacts/model_trainer]
+[2025-04-24 13:23:44,178: INFO: stage_04_model_training: Starting Training Model]
+[2025-04-24 13:43:31,427: INFO: stage_04_model_training: Model Training completed successfully]
+[2025-04-24 13:43:31,427: INFO: main: >>>>>> stage Model Training Stage completed <<<<<<
+
+x==========x
+
+]
+[2025-04-24 13:43:31,427: INFO: main: >>>>>> stage Model Evaluation Stage started<<<<<<]
+[2025-04-24 13:43:31,453: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-24 13:43:31,467: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-24 13:43:31,467: INFO: common: created directory at: artifacts]
+[2025-04-24 13:43:31,468: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-04-24 13:51:28,757: INFO: rouge_scorer: Using default tokenizer.]
+[2025-04-24 13:51:30,040: INFO: main: >>>>>> stage Model Evaluation Stage completed <<<<<<
+
+x==========x
+
+]
+[2025-04-24 13:52:30,611: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-24 13:52:30,618: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-24 13:52:30,620: INFO: common: created directory at: artifacts]
+[2025-04-24 13:52:30,620: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-04-24 13:53:56,938: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-24 13:53:56,939: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-24 13:53:56,939: INFO: common: created directory at: artifacts]
+[2025-04-24 13:53:56,940: INFO: common: created directory at: artifacts/model_evaluation]
